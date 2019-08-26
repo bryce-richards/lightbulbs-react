@@ -10,17 +10,13 @@ export default class ResultsContainer extends Component {
   buildLightbulbsList() {
     const { switchedOn } = this.props;
 
-    return switchedOn.length ? (
-      switchedOn.map(lightbulb => {
-        if (switchedOn.indexOf(lightbulb) < switchedOn.length - 1) {
-          return <span key={lightbulb}>{lightbulb}, </span>;
-        } else {
-          return <span key={lightbulb}>{lightbulb}</span>;
-        }
-      })
-    ) : (
-      <span>No results</span>
-    );
+    return switchedOn.map(lightbulb => {
+      if (switchedOn.indexOf(lightbulb) < switchedOn.length - 1) {
+        return <span key={lightbulb}>{lightbulb}, </span>;
+      } else {
+        return <span key={lightbulb}>{lightbulb}</span>;
+      }
+    });
   }
 
   render() {

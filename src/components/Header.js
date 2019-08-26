@@ -8,7 +8,7 @@ export default () => {
       <p>
         <span>
           A given number of lightbulbs are lined up in a long hallway. Each
-          lightbulb has its own switch that is currently switched off.{" "}
+          lightbulb has its own switch that is currently switched off.
         </span>
         <br />
         <br />
