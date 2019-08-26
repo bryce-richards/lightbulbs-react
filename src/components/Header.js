@@ -16,7 +16,7 @@ export default () => {
           A given number of people are lined up outside the entrance to the
           hallway. The first person walks through the hallway and switches every
           light. The second person walks through the hallway and switches every
-          second light. The third person, every thid light. And so on.
+          second light. The third person, every third light. And so on.
         </span>
         <br />
         <br />
